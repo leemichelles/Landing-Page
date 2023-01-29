@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.splash,
+.footer {
+    background-color: #1F2937;
+}
+
+.footer,
+.herosecondary,
+.headerlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.herosecondary {
+    margin: 0px;
+    padding: 12 px 0px;
+}
+h1 {
+    margin: 0px;
+}
+
+button,
+.contactcontainer {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0;
+}
+
+.testimonial {
+    background-color:#E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quotecredit {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.splashpic {
+    max-width: 500px;
+    max-height: auto;
+}
+
+.stylepic {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+
+/* Flex */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 24px;
+    text-decoration: none;
+}
+
+.splash {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.stylepics {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 200px;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    flex: 1;
+}
+
+.testimonial {
+    padding: 100px 350px;
+}
+
+.quotecredit {
+    text-align: right;
+}
+
+.text {
+    padding-top: 8px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 24px;
+    border: none;
+}
+
+.button2 {
+    border: white 2px solid;
+}
+
+.contactcontainer {
+    display: flex;
+    margin: 72px 200px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
+
+.contacttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contactaction {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.contactdet {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+}
